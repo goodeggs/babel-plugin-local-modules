@@ -2,7 +2,7 @@ import path from 'path'
 
 const LOCAL_MODULES_NAME = 'local_modules'
 
-exports.default = function () {
+export default function () {
   return {
     visitor: {
       CallExpression (pathObj, meta) {
