@@ -13,6 +13,7 @@
     "presets": ["es2015"]
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
   }
 }
