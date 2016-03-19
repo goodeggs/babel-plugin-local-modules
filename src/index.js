@@ -19,7 +19,7 @@ export default function () {
         const oldRequire = pathObj.node.arguments[0].value;
         const dirname = path.dirname(meta.file.opts.filename);
         const newLocalModulesPath = path.relative(dirname, LOCAL_MODULES_NAME)
-        pathObj.node.arguments[0].value = newLocalModulesPath + oldRequire.substr(LOCAL_MODULES_NAME.length)
+        pathObj.node.arguments[0].value = './' + newLocalModulesPath + oldRequire.substr(LOCAL_MODULES_NAME.length)
 
       }
     }
