@@ -23,9 +23,5 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/goodeggs/babel-plugin-local-modules.git"
-  },
-  "engines": {
-    "node": "6.9.1",
-    "npm": "3.9"
   }
 }
