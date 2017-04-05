@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-local-modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Transform require local_modules statements to use a relative path",
   "main": "lib/index.js",
   "author": "Good Eggs Inc.",
